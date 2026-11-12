@@ -1,0 +1,28 @@
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Build outputs and generated data
+build/
+dist/
+node_modules/
+.next/
+results/
+figures/
+
+# Local machine files, keys and credentials
+.DS_Store
+Thumbs.db
+*.pem
+*.key
+id_rsa
+id_ed25519
